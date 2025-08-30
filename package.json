@@ -1,7 +1,7 @@
 {
     "name": "canvas2mermaid",
     "version": "1.0.0",
-    "description": "Convert Canvas files to Mermaid flowcharts. Features internal links, groups, callouts and more.",
+    "description": "Convert Canvas files to Mermaid flowcharts with internal links and group support.",
     "main": "main.js",
     "scripts": {
         "dev": "webpack --mode development --watch",
@@ -25,9 +25,6 @@
     },
     "bugs": {
         "url": "https://github.com/HaclkMans/Canvas2Mermaid/issues"
-    },
-    "funding": {
-        "url": "https://www.buymeacoffee.com/haclkmans"
     },
     "devDependencies": {
         "@types/node": "^20.19.11",

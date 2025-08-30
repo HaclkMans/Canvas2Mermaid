@@ -10,15 +10,11 @@ class ObsidianPlugin {
         id: packageData.name,
         name: "Canvas2Mermaid",
         version: packageData.version,
-        minAppVersion: "1.0.0",
+        minAppVersion: "1.8.0",
         description: packageData.description,
         author: packageData.author,
         authorUrl: "https://github.com/HaclkMans",
-        fundingUrl: {
-          "Buy Me a Coffee": "https://www.buymeacoffee.com/haclkmans"
-        },
-        isDesktopOnly: true,
-        repo: "HaclkMans/Canvas2Mermaid"
+        isDesktopOnly: true
       };
       
       fs.writeFileSync(path.resolve(__dirname, './manifest.json'), JSON.stringify(manifest, null, '\t'));
