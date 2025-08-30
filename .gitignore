@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+main.js.map
+dist/
+build/
+*.tsbuildinfo
+
+# Development files
+RELEASE_CHECKLIST.md
+logs/
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

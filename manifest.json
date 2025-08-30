@@ -1,0 +1,14 @@
+{
+	"id": "canvas2mermaid",
+	"name": "Canvas2Mermaid",
+	"version": "1.0.0",
+	"minAppVersion": "1.0.0",
+	"description": "Convert Canvas files to Mermaid flowcharts. Features internal links, groups, callouts and more.",
+	"author": "HaclkMans",
+	"authorUrl": "https://github.com/HaclkMans",
+	"fundingUrl": {
+		"Buy Me a Coffee": "https://www.buymeacoffee.com/haclkmans"
+	},
+	"isDesktopOnly": true,
+	"repo": "HaclkMans/Canvas2Mermaid"
+}

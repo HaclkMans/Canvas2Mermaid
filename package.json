@@ -1,0 +1,41 @@
+{
+    "name": "canvas2mermaid",
+    "version": "1.0.0",
+    "description": "Convert Canvas files to Mermaid flowcharts. Features internal links, groups, callouts and more.",
+    "main": "main.js",
+    "scripts": {
+        "dev": "webpack --mode development --watch",
+        "build": "webpack",
+        "clean": "rimraf main.js main.js.map manifest.json versions.json"
+    },
+    "keywords": [
+        "canvas",
+        "mermaid",
+        "flowchart",
+        "callout",
+        "diagram",
+        "knowledge-graph",
+        "visualization"
+    ],
+    "author": "HaclkMans",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HaclkMans/Canvas2Mermaid"
+    },
+    "bugs": {
+        "url": "https://github.com/HaclkMans/Canvas2Mermaid/issues"
+    },
+    "funding": {
+        "url": "https://www.buymeacoffee.com/haclkmans"
+    },
+    "devDependencies": {
+        "@types/node": "^20.19.11",
+        "obsidian": "^1.8.7",
+        "rimraf": "^6.0.1",
+        "ts-loader": "^9.5.2",
+        "typescript": "^5.9.2",
+        "webpack": "^5.101.3",
+        "webpack-cli": "^6.0.1"
+    }
+}
