@@ -1,7 +1,7 @@
 {
 	"id": "canvas2mermaid",
 	"name": "Canvas2Mermaid",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minAppVersion": "1.8.0",
 	"description": "Convert Canvas files to Mermaid flowcharts with internal links and group support.",
 	"author": "HaclkMans",

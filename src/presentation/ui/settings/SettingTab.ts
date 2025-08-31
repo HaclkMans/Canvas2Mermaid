@@ -45,7 +45,7 @@ export class Canvas2MermaidSettingTab extends PluginSettingTab {
         .addOption('LR', 'Left to Right')
         .setValue(this.plugin.settings.flowchartDirection)
         .onChange(async (value) => {
-          this.plugin.settings.flowchartDirection = value as any;
+          this.plugin.settings.flowchartDirection = value as 'TB' | 'BT' | 'RL' | 'LR';
           await this.plugin.saveData(this.plugin.settings);
         })
       );

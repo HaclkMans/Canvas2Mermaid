@@ -97,9 +97,6 @@ export class ClipboardRepository implements IClipboardRepository {
   private async writeWithLegacyAPI(content: ClipboardContent): Promise<void> {
     const textArea = document.createElement('textarea');
     textArea.value = content.text;
-    textArea.style.position = 'fixed';
-    textArea.style.left = '-999999px';
-    textArea.style.top = '-999999px';
     
     document.body.appendChild(textArea);
     textArea.select();
@@ -126,9 +123,6 @@ export class ClipboardRepository implements IClipboardRepository {
    */
   private async readWithLegacyAPI(): Promise<ClipboardContent> {
     const textArea = document.createElement('textarea');
-    textArea.style.position = 'fixed';
-    textArea.style.left = '-999999px';
-    textArea.style.top = '-999999px';
     
     document.body.appendChild(textArea);
     textArea.focus();

@@ -1,6 +1,6 @@
 {
     "name": "canvas2mermaid",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Convert Canvas files to Mermaid flowcharts with internal links and group support.",
     "main": "main.js",
     "scripts": {
